@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="modal" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="maintainUnitBox" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainTabbedPanel" pref="455" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainTabbedPanel" pref="307" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="mainTabbedPanel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="mainTabbedPanel.font"/>
+        <Property name="name" type="java.lang.String" value="mainTabbedPanel" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="addPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="addPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x65b0;&#x589e;&#x55ae;&#x5143;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x65b0;&#x589e;&#x55ae;&#x5143;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="filePathLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="filePathText" min="-2" pref="220" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="openButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="symbolLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="symbolText" min="-2" pref="43" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="addTypeLabel" pref="68" max="32767" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="addExamTypeComboBox" min="-2" pref="165" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="unitLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Component id="unitText" pref="159" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="infoLabel" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="confirmButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="exitButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="stateLabel" alignment="0" min="-2" pref="273" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="62" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addExamTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="unitText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="unitLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="filePathLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="filePathText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="openButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="symbolLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="symbolText" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="infoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateLabel" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="confirmButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="exitButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="unitLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="unitLabel.text"/>
+                <Property name="verticalAlignment" type="int" value="1"/>
+                <Property name="name" type="java.lang.String" value="unitLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="filePathLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="filePathLabel.text"/>
+                <Property name="verticalAlignment" type="int" value="1"/>
+                <Property name="name" type="java.lang.String" value="filePathLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="symbolLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="symbolLabel.text"/>
+                <Property name="verticalAlignment" type="int" value="1"/>
+                <Property name="name" type="java.lang.String" value="symbolLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="unitText">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="unitText.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="unitText.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="unitText" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="unitTextFocusLost"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="filePathText">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="filePathText.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="filePathText.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="filePathText" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="openButton">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="openButton.text"/>
+                <Property name="name" type="java.lang.String" value="openButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="openButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="symbolText">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" resourceKey="symbolText.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="symbolText.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="symbolText" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="confirmButton">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="confirmButton.text"/>
+                <Property name="name" type="java.lang.String" value="confirmButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="confirmButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="infoLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="infoLabel.text"/>
+                <Property name="verticalAlignment" type="int" value="1"/>
+                <Property name="name" type="java.lang.String" value="infoLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="exitButton">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="gre.view.GREIncreseUnit" id="closeIncreseUnit" methodName="closeIncreseUnit"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="exitButton.text"/>
+                <Property name="name" type="java.lang.String" value="exitButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="stateLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="stateLabel.foreground"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" resourceKey="stateLabel.text"/>
+                <Property name="name" type="java.lang.String" value="stateLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="addExamTypeComboBox">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="addExamTypeComboBox" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addExamTypeComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="examTypeComboBox.setSelectedIndex(0);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox(types.toArray())"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="EnumSet&lt;ExamTypesEnum&gt; types = EnumSet.range(ExamTypesEnum.ANTONYM, ExamTypesEnum.VOCABULARY);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="addTypeLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="addTypeLabel.text"/>
+                <Property name="name" type="java.lang.String" value="addTypeLabel" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="deletePanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="deletePanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x522a;&#x9664;&#x55ae;&#x5143;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x522a;&#x9664;&#x55ae;&#x5143;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="deleteunitLabel" max="32767" attributes="1"/>
+                                  <Component id="typeLabel" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="examTypeComboBox" alignment="0" pref="181" max="32767" attributes="1"/>
+                                  <Component id="unitComboBox" alignment="0" min="-2" pref="181" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="deleteInfoLable" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="deleteButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="deleteStateLable" alignment="0" pref="177" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="examTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="typeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="unitComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteunitLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="deleteInfoLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteStateLable" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="deleteButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="99" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="unitComboBox">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="unitComboBox" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox()"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="deleteButton">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="deleteButton.text"/>
+                <Property name="name" type="java.lang.String" value="deleteButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="deleteInfoLable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="deleteInfoLable.text"/>
+                <Property name="name" type="java.lang.String" value="deleteInfoLable" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="deleteStateLable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="deleteStateLable.text"/>
+                <Property name="name" type="java.lang.String" value="deleteStateLable" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="examTypeComboBox">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="examTypeComboBox" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="examTypeComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="examTypeComboBox.setSelectedIndex(0);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox(types.toArray())"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="typeLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="typeLabel.text"/>
+                <Property name="name" type="java.lang.String" value="typeLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="deleteunitLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="unitComboBox.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="deleteunitLabel.text"/>
+                <Property name="name" type="java.lang.String" value="deleteunitLabel" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
