@@ -1,5 +1,5 @@
 /*
- * Copyright 2009 digman543
+ * Copyright 2010 digman543
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -252,7 +252,7 @@ public class GREReviewPanel extends javax.swing.JPanel {
     if (reviewTable.getSelectedColumn() == 3) {
       String explain = (String) model.getValueAt(selectedRow, 3);
       if (explain.equals("")) {
-        model.setValueAt(wordList.get(selectedRow)[2], selectedRow, 3);
+        model.setValueAt(wordList.get(selectedRow)[VocabularyEnum.CHINESE_1.ordinal()], selectedRow, 3);
       } else {
         model.setValueAt("", selectedRow, 3);
       }
