@@ -1,5 +1,5 @@
 /*
- * Copyright 2009 digman543
+ * Copyright 2010 digman543
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@ import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Serializer;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;
 
@@ -140,6 +141,7 @@ public class GREApp extends SingleFrameApplication {
 	 * Main method launching the application.
 	 */
 	public static void main(String[] args) {
+		PropertyConfigurator.configure("log4j.properties");
 		launch(GREApp.class, args);
 	}
 }
